@@ -12,6 +12,7 @@ on:
 
 jobs:
   bundle-frontend:
+    timeout-minutes: 60
     runs-on: ubuntu-latest
     environment: ${{ inputs.environment }}
     defaults:
